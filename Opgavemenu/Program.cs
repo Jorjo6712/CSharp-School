@@ -60,12 +60,11 @@ namespace Opgavemenu{
                         { 
                             throw new Exception();
                         }
-                        catch (Exception ex)
+                        catch (Exception)
                         {
                             Console.Clear();
                             continue;
                         }
-                        break;
                       
                 }   
             }
