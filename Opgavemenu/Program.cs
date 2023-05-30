@@ -63,15 +63,26 @@ namespace Opgavemenu{
                         if (parsedTal1 == parsedTal2)
                         {
                             Console.WriteLine("Divison by 0 - error");
-                            Console.WriteLine("Tryk på Q for at gå tilbage til opgavemenu.");
+                            
+                            Console.Write("\n");
+                            
+                            Console.WriteLine("Tryk Q for at gå tilbage til opgavemenu.");
+                            
+                            Console.WriteLine("Tryk R for at prøve igen.");
 
-                            ConsoleKeyInfo exit = Console.ReadKey();
+                            ConsoleKeyInfo kinf = Console.ReadKey();
 
-                            if(exit.Key == ConsoleKey.Q)
+                            if(kinf.Key == ConsoleKey.Q)
                             {
                                 Console.Clear();
                                 Thread.Sleep(1000);
                                 continue;
+                            }
+                            else if (kinf.Key == ConsoleKey.R)
+                            {
+                                Console.Clear();
+                                Thread.Sleep(1000);
+                                goto retry;
                             }
                         }
                         else
@@ -79,16 +90,26 @@ namespace Opgavemenu{
                             Console.Clear();
 
                             Console.WriteLine("Resultat: " + resultat);
+                            
+                            Console.Write("\n");
+                            
+                            Console.WriteLine("Tryk Q for at gå tilbage til opgavemenu.");
 
-                            Console.WriteLine("Tryk på Q for at gå tilbage til opgavemenu.");
+                            Console.WriteLine("Tryk R for at prøve igen.");
 
-                            ConsoleKeyInfo exit = Console.ReadKey();
+                            ConsoleKeyInfo kinf = Console.ReadKey();
 
-                            if(exit.Key == ConsoleKey.Q)
+                            if(kinf.Key == ConsoleKey.Q)
                             {
                                 Console.Clear();
                                 Thread.Sleep(1000);
                                 continue;
+                            }
+                            else if (kinf.Key == ConsoleKey.R)
+                            {
+                                Console.Clear();
+                                Thread.Sleep(1000);
+                                goto retry;
                             }
                         }
 
