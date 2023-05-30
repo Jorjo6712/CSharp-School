@@ -99,25 +99,30 @@ namespace Opgavemenu{
 
                             ConsoleKeyInfo kinf = Console.ReadKey();
 
-                            if(kinf.Key == ConsoleKey.Q)
+                            switch (kinf.Key)
                             {
-                                Console.Clear();
-                                Thread.Sleep(1000);
-                                continue;
+                                case ConsoleKey.Q:
+                                    Console.Clear();
+                                    Thread.Sleep(1000);
+                                    continue;
+                                
+                                case ConsoleKey.R:
+                                    Console.Clear();
+                                    Thread.Sleep(1000);
+                                    goto retry;
+                                
+                                default:
+                                    Console.Clear();
+                                    break;
                             }
-                            else if (kinf.Key == ConsoleKey.R)
-                            {
-                                Console.Clear();
-                                Thread.Sleep(1000);
-                                goto retry;
-                            }
+
                         }
 
                         break;
                     
                     case ConsoleKey.D2:
                         Console.Clear();
-                        Console.WriteLine("test 2");
+                        
                         break;
                     
                     case ConsoleKey.D3:
