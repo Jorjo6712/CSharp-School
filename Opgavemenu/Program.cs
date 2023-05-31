@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-using System.Net;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,11 +33,11 @@ namespace Opgavemenu{
                         
                         Console.WriteLine("Vælge første tal: ");
                         
-                        string input1 = Console.ReadLine();
+                        string? input1 = Console.ReadLine();
                         
                         Console.WriteLine("Vælge anden tal: ");
 
-                        string input2 = Console.ReadLine();
+                        string? input2 = Console.ReadLine();
                         
                         double parsedTal1;
                         double parsedTal2;
@@ -47,14 +45,14 @@ namespace Opgavemenu{
                         if (!double.TryParse(input1, out parsedTal1))
                         {
                             Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                            Thread.Sleep(5000);
+                            Thread.Sleep(3000);
                             goto retry;
                         }
 
-                        if (!double.TryParse(input2, out parsedTal2))
+                        else if (!double.TryParse(input2, out parsedTal2))
                         {
                             Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                            Thread.Sleep(5000);
+                            Thread.Sleep(3000);
                             goto retry;
                         }
                     
@@ -62,69 +60,58 @@ namespace Opgavemenu{
                         
                         if (parsedTal1 == parsedTal2)
                         {
-                            Console.WriteLine("Divison by 0 - error");
+                            Console.WriteLine("\nDivison by 0 - error");
+                            Thread.Sleep(3000);
+                            goto retry;
                             
-                            Console.Write("\n");
-                            
-                            Console.WriteLine("Tryk Q for at gå tilbage til opgavemenu.");
-                            
-                            Console.WriteLine("Tryk R for at prøve igen.");
-
-                            ConsoleKeyInfo kinf = Console.ReadKey();
-
-                            if(kinf.Key == ConsoleKey.Q)
-                            {
-                                Console.Clear();
-                                Thread.Sleep(1000);
-                                continue;
-                            }
-                            else if (kinf.Key == ConsoleKey.R)
-                            {
-                                Console.Clear();
-                                Thread.Sleep(1000);
-                                goto retry;
-                            }
                         }
                         else
                         {
-                            Console.Clear();
-
                             Console.WriteLine("Resultat: " + resultat);
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                            break;
                             
-                            Console.Write("\n");
-                            
-                            Console.WriteLine("Tryk Q for at gå tilbage til opgavemenu.");
-
-                            Console.WriteLine("Tryk R for at prøve igen.");
-
-                            ConsoleKeyInfo kinf = Console.ReadKey();
-
-                            switch (kinf.Key)
-                            {
-                                case ConsoleKey.Q:
-                                    Console.Clear();
-                                    Thread.Sleep(1000);
-                                    continue;
-                                
-                                case ConsoleKey.R:
-                                    Console.Clear();
-                                    Thread.Sleep(1000);
-                                    goto retry;
-                                
-                                default:
-                                    Console.Clear();
-                                    break;
-                            }
-
-                        }
-
-                        break;
+                        }   
                     
                     case ConsoleKey.D2:
+                        forretry:
                         Console.Clear();
                         
+                        Console.WriteLine("Vælge første tal:");
+                        string? forinput1 = Console.ReadLine();
+                        
+                        Console.WriteLine("Vælge anden tal:");
+                        string? forinput2 = Console.ReadLine();
+
+                        for(;;)
+                        {       
+                                int t1 = 0;
+                                int t2 = 0;
+
+                                if(!int.TryParse(forinput1, out t1))
+                                {
+                                    Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
+                                    Thread.Sleep(3000);
+                                    Console.Clear();
+                                    goto forretry;
+                                }
+                                else if(!int.TryParse(forinput2, out t2))
+                                {
+                                    Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
+                                    Thread.Sleep(3000);
+                                    Console.Clear();
+                                    goto forretry;
+                                }
+                                
+                                int sumresultat = t1 * t2;
+                                Console.WriteLine("Resultat af summering: " + sumresultat);
+                                Thread.Sleep(3000);
+                                Console.Clear();
+                                break; 
+                        } 
                         break;
-                    
+                        
                     case ConsoleKey.D3:
                         Console.Clear();
                         Console.WriteLine("test 3");
@@ -155,15 +142,8 @@ namespace Opgavemenu{
                         break;    
                     
                     default:
-                        try
-                        { 
-                            throw new Exception();
-                        }
-                        catch (Exception)
-                        {
-                            Console.Clear();
-                            continue;
-                        }
+                        Console.Clear();
+                        continue;
                       
                 }   
             }
