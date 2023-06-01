@@ -15,7 +15,7 @@ namespace Opgavemenu{
                 Console.WriteLine("╔══════════════════════════════════════════════════╗");
                 Console.WriteLine("║                C# Console opgaver                ║");
                 Console.WriteLine("╠══════════════════════════════════════════════════╣");
-                Console.WriteLine("║ Opg. 1   Matematik                               ║");
+                Console.WriteLine("║ Opg .1   Matematik                               ║");
                 Console.WriteLine("║ Opg .2   Loop med summering                      ║");
                 Console.WriteLine("║ Opg .3   Beregne fakultet af et tal              ║");  
                 Console.WriteLine("║ Opg .4   Læs og skriv til en fil                 ║");
@@ -27,120 +27,196 @@ namespace Opgavemenu{
                 cki = Console.ReadKey();
                 
                 switch (cki.Key) {
+                    //Opgave 1
                     case ConsoleKey.D1:
-                        retry:
+                        try
+                        {
                         Console.Clear();
                         
                         Console.WriteLine("Vælge første tal: ");
                         
-                        string? input1 = Console.ReadLine();
+                        decimal input1 = Convert.ToDecimal(Console.ReadLine());
                         
                         Console.WriteLine("Vælge anden tal: ");
 
-                        string? input2 = Console.ReadLine();
+                        decimal input2 = Convert.ToDecimal(Console.ReadLine());
                         
-                        double parsedTal1;
-                        double parsedTal2;
-                                                             
-                        if (!double.TryParse(input1, out parsedTal1))
-                        {
-                            Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                            Thread.Sleep(3000);
-                            goto retry;
-                        }
 
-                        else if (!double.TryParse(input2, out parsedTal2))
+                        decimal resultat = input1 * input2 / (input1 - input2) + input2;
+
+                        Console.WriteLine("\nResultat: " + resultat);
+
+                        Thread.Sleep(3000);
+
+                        Console.Clear();
+                        } 
+                        catch (FormatException)
                         {
-                            Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                            Thread.Sleep(3000);
-                            goto retry;
-                        }
-                    
-                        double resultat = parsedTal1 * parsedTal2 / (parsedTal1 - parsedTal2) + parsedTal2;
-                        
-                        if (parsedTal1 == parsedTal2)
-                        {
-                            Console.WriteLine("\nDivison by 0 - error");
-                            Thread.Sleep(3000);
-                            goto retry;
-                            
-                        }
-                        else
-                        {
-                            Console.WriteLine("Resultat: " + resultat);
+                            Console.WriteLine("\nFejl: Forkert format, brug gern heltal eller decimal, f.eks {11, 1.11 eller -11, -1.11} osv." );
                             Thread.Sleep(3000);
                             Console.Clear();
-                            break;
-                            
-                        }   
-                    
+                        }
+                        catch (DivideByZeroException)
+                        {
+                            Console.WriteLine("\nFejl: Prøvede at dividere med nul.");
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
+                        catch (OverflowException)
+                        {
+                            Console.WriteLine("\nFejl: Tal var enten for stor eller for lille." );
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
+                        break;
+                        
+                          
+                    //Opgave 2
                     case ConsoleKey.D2:
-                        forretry:
                         Console.Clear();
                         
+                        try
+                        {
                         Console.WriteLine("Vælge første tal:");
-                        string? forinput1 = Console.ReadLine();
+                        double forinput1 = Convert.ToInt64(Console.ReadLine());
                         
                         Console.WriteLine("Vælge anden tal:");
-                        string? forinput2 = Console.ReadLine();
-
-                        for(;;)
-                        {       
-                                int t1 = 0;
-                                int t2 = 0;
-
-                                if(!int.TryParse(forinput1, out t1))
-                                {
-                                    Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                                    Thread.Sleep(3000);
-                                    Console.Clear();
-                                    goto forretry;
-                                }
-                                else if(!int.TryParse(forinput2, out t2))
-                                {
-                                    Console.WriteLine("Brug rigtig format: 10 (ikke '1 0' osv.)");
-                                    Thread.Sleep(3000);
-                                    Console.Clear();
-                                    goto forretry;
-                                }
-                                
-                                int sumresultat = t1 * t2;
-                                Console.WriteLine("Resultat af summering: " + sumresultat);
-                                Thread.Sleep(3000);
-                                Console.Clear();
-                                break; 
-                        } 
-                        break;
+                        double forinput2 = Convert.ToInt64(Console.ReadLine());
                         
+                        double forresultat = 0;
+                        
+                        for(int i = 1; i <= forinput1; i++){
+                           forresultat += forinput2;
+                        }
+                        
+                        Console.WriteLine("\nResultat: " + forresultat);
+                        Thread.Sleep(3000);
+                        Console.Clear();
+                        } 
+                        catch (FormatException)
+                        {
+                            Console.WriteLine("\nFejl: Forkert format, brug heltal {11, 1, -11, -1} osv." );
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
+                        catch (OverflowException)
+                        {
+                            Console.WriteLine("\nFejl: Tal var enten for stor eller for lille." );
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
+                     
+                        break;
+                    //Opgave 3    
                     case ConsoleKey.D3:
-                        Console.Clear();
-                        Console.WriteLine("test 3");
+                        
+                       try
+                       {
+                            Console.Clear();
+                            
+                            Console.WriteLine("Vælge fakultet nummer:");
+                            
+                            double n = Convert.ToInt64(Console.ReadLine());
+                            double fkresult = 1;
+                            
+                            for (int i = 1; i <= n; i++)
+                            {
+                                fkresult *= i;
+                            }
+                            
+                            Console.WriteLine("\nResultat: " + fkresult);
+
+                            Thread.Sleep(3000);
+
+                            Console.Clear();
+                        }
+                        catch (FormatException)
+                        {
+                            Console.WriteLine("\nFejl: Forkert format, brug heltal {11, 1, -11, -1} osv." );
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
+                        catch (OverflowException)
+                        {
+                            Console.WriteLine("\nFejl: Tal var enten for stor eller for lille." );
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
                         break;
-                    
+                    //Opgave 4
                     case ConsoleKey.D4:
-                        Console.Clear();
-                        Console.WriteLine("test 4");
+                        try
+                        {
+                        
+                            Console.Clear();
+                            
+                            ConsoleKeyInfo fcki;
+
+                            Console.WriteLine("╔════════════════════════════════╗");
+                            Console.WriteLine("║      Fil Valgmulighedere       ║");
+                            Console.WriteLine("╠════════════════════════════════╣");
+                            Console.WriteLine("║ Mulig .1  Skriv og gem til C:/ ║");
+                            Console.WriteLine("║ Mulig .2  Tilføj tekst og gem  ║");
+                            Console.WriteLine("║ Mulig .3  Læs fil og udskriv   ║"); 
+                            Console.WriteLine("╚════════════════════════════════╝");
+
+                            fcki = Console.ReadKey();
+                            
+                            //Valgmuligheder for filen.
+                            switch(fcki.Key)
+                            {
+                                //Opret fil, skriv tekst og gem med navn.
+                                case ConsoleKey.D1:
+                                    
+                                    Console.Clear();
+                                    
+                                    Console.WriteLine();
+                                    
+                                    
+
+
+
+                                    break;
+
+                                case ConsoleKey.D2:
+
+                                    break;
+
+                                case ConsoleKey.D3:
+
+                                    break;
+
+                                default:
+
+                                    break;
+                            }
+                        } 
+                        catch
+                        {
+
+                        }
                         break;
-                    
+                    //Opgave 5
                     case ConsoleKey.D5:
                         Console.Clear();
                         Console.WriteLine("test 5");
                         break;
-                    
+                    //Opgave 6
                     case ConsoleKey.D6:
                         Console.Clear();
                         Console.WriteLine("test 6");
                         break;
+                    //Opgave 7
                     case ConsoleKey.D7:
                         Console.Clear();
                         Console.WriteLine("test 7");
                         break;
-                    
+                    //Luk program
                     case ConsoleKey.Q:
                         Console.Clear();
                         Environment.Exit(0);
                         break;    
-                    
+                    //Continue som default
                     default:
                         Console.Clear();
                         continue;
