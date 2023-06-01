@@ -9,9 +9,16 @@ namespace Opgavemenu{
     class Program{
     
         static void Main (string[] args){
+            
             ConsoleKeyInfo cki;
+            bool ydre = true;
 
-            while(true){  
+
+            while(ydre){
+               
+                bool indre = true;
+                bool exit = false;
+
                 Console.WriteLine("╔══════════════════════════════════════════════════╗");
                 Console.WriteLine("║                C# Console opgaver                ║");
                 Console.WriteLine("╠══════════════════════════════════════════════════╣");
@@ -147,55 +154,73 @@ namespace Opgavemenu{
                     case ConsoleKey.D4:
                         try
                         {
-                        
-                            Console.Clear();
-                            
-                            ConsoleKeyInfo fcki;
-
-                            Console.WriteLine("╔════════════════════════════════╗");
-                            Console.WriteLine("║      Fil Valgmulighedere       ║");
-                            Console.WriteLine("╠════════════════════════════════╣");
-                            Console.WriteLine("║ Mulig .1  Skriv og gem til C:/ ║");
-                            Console.WriteLine("║ Mulig .2  Tilføj tekst og gem  ║");
-                            Console.WriteLine("║ Mulig .3  Læs fil og udskriv   ║"); 
-                            Console.WriteLine("╚════════════════════════════════╝");
-
-                            fcki = Console.ReadKey();
-                            
-                            //Valgmuligheder for filen.
-                            switch(fcki.Key)
+                            while(indre)
                             {
-                                //Opret fil, skriv tekst og gem med navn.
-                                case ConsoleKey.D1:
+                                Console.Clear();
+                                
+                                ConsoleKeyInfo fcki;
+
+                                Console.WriteLine("╔════════════════════════════════╗");
+                                Console.WriteLine("║      Fil Valgmulighedere       ║");
+                                Console.WriteLine("╠════════════════════════════════╣");
+                                Console.WriteLine("║ Mulig .1  Skriv og gem til C:/ ║");
+                                Console.WriteLine("║ Mulig .2  Tilføj tekst og gem  ║");
+                                Console.WriteLine("║ Mulig .3  Læs fil og udskriv   ║"); 
+                                Console.WriteLine("╚════════════════════════════════╝");
+
+                                fcki = Console.ReadKey();
+                                
+                                //Valgmuligheder for filen.
+                                switch(fcki.Key)
+                                {
+                                    //Opret fil, skriv tekst og gem med navn.
+                                    case ConsoleKey.D1:
+                                        
+                                        Console.Clear();
+                                        
+                                        Console.WriteLine("Vælge fil navn:");
+                                        
+                                        string? filnavn = @"C:\\temp\\" + Console.ReadLine();
+                                        
+                                        FileStream fil = new FileStream(filnavn, FileMode.Create, FileAccess.ReadWrite);
+
+                                        Thread.Sleep(3000);
+
+                                        Console.Clear();
+
+                                        exit = true;
+                                        break;
+
+                                    case ConsoleKey.D2:
+
+                                        break;
+
+                                    case ConsoleKey.D3:
+
+                                        break;
                                     
-                                    Console.Clear();
-                                    
-                                    Console.WriteLine();
-                                    
-                                    
+                                    case ConsoleKey.Q:
+                                        
+                                       exit = true;
 
+                                        Console.Clear();
 
-
+                                        break;
+                                        
+                                    default:
+                                        break;
+                                }
+                                if (exit)
+                                {
                                     break;
-
-                                case ConsoleKey.D2:
-
-                                    break;
-
-                                case ConsoleKey.D3:
-
-                                    break;
-
-                                default:
-
-                                    break;
-                            }
-                        } 
+                                }
+                            }   
+                        }
                         catch
                         {
 
                         }
-                        break;
+                            break;
                     //Opgave 5
                     case ConsoleKey.D5:
                         Console.Clear();
@@ -220,7 +245,7 @@ namespace Opgavemenu{
                     default:
                         Console.Clear();
                         continue;
-                      
+
                 }   
             }
         }
