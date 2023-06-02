@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -165,7 +166,8 @@ namespace Opgavemenu{
                                 Console.WriteLine("╠════════════════════════════════╣");
                                 Console.WriteLine("║ Mulig .1  Skriv og gem til C:/ ║");
                                 Console.WriteLine("║ Mulig .2  Tilføj tekst og gem  ║");
-                                Console.WriteLine("║ Mulig .3  Læs fil og udskriv   ║"); 
+                                Console.WriteLine("║ Mulig .3  Læs fil og udskriv   ║");
+                                Console.WriteLine("║ Tast 'Q' for gå tilbage        ║"); 
                                 Console.WriteLine("╚════════════════════════════════╝");
 
                                 fcki = Console.ReadKey();
@@ -175,33 +177,94 @@ namespace Opgavemenu{
                                 {
                                     //Opret fil, skriv tekst og gem med navn.
                                     case ConsoleKey.D1:
-                                        
-                                        Console.Clear();
-                                        
-                                        Console.WriteLine("Vælge fil navn:");
-                                        
-                                        string? filnavn = @"C:\\temp\\" + Console.ReadLine();
-                                        
-                                        FileStream fil = new FileStream(filnavn, FileMode.Create, FileAccess.ReadWrite);
+                                        try    
+                                        {    
+                                            Console.Clear();
+                                            
+                                            Console.WriteLine("Vælge fil navn:");
+                                            
+                                            string? filnavnM1 = Console.ReadLine();
+                                            
+                                            string pathM1 = "C:\\temp\\" + filnavnM1 + ".txt";
 
-                                        Thread.Sleep(3000);
+                                            FileStream filM1 = new FileStream(pathM1, FileMode.Create, FileAccess.ReadWrite);
+                                            
+                                            Console.WriteLine("\nSkrev fil: " + filnavnM1 + ".txt");
+                                            
+                                            Console.WriteLine("\nSkriv tekst til fil:");
+                                            
+                                            string? filtekstM1 = Console.ReadLine();
+                                              
+                                            using (StreamWriter swM1 = new StreamWriter(filM1))
+                                            {
 
-                                        Console.Clear();
+                                                swM1.WriteLine(filtekstM1);
 
-                                        exit = true;
+                                                swM1.Flush(); 
+                                            
+                                            }
+
+                                            Console.WriteLine("\nTekst er skrevet til filen.");
+                                            
+                                            Thread.Sleep(3000);
+                                            
+                                            Console.Clear();
+
+                                            exit = true;    
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            throw new Exception("\nFejl: " + ex.Message);
+                                        }
                                         break;
-
+                                    //Tilføj tekst og gem .
                                     case ConsoleKey.D2:
+                                        try
+                                        {    
+                                            Console.Clear();
 
+                                            Console.WriteLine("Vælge fil navn:");
+                                            
+                                            string? filnavnM2 = Console.ReadLine();
+                                            
+                                            string pathM2 = "C:\\temp\\" + filnavnM2 + ".txt";
+
+                                            if (!File.Exists(pathM2)){Console.WriteLine("\nFil eksistere ikke!"); Thread.Sleep(3000); break;}
+
+                                            Console.WriteLine("\nSkriv nyt linje til fil: " + filnavnM2);
+                                            
+                                            string? filtekstM2 = Console.ReadLine();
+
+                                            using (StreamWriter swM1 = File.AppendText(pathM2))
+                                            {
+
+                                                swM1.WriteLine(filtekstM2);
+
+                                                swM1.Flush(); 
+                                            
+                                            }
+
+                                            Console.WriteLine("\nTekst er skrevet til filen.");
+                                            
+                                            Thread.Sleep(3000);
+                                            
+                                            Console.Clear();
+
+                                            exit = true;    
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine("\nFejl: " + ex.Message);
+                                        }
                                         break;
-
+                                    
                                     case ConsoleKey.D3:
 
                                         break;
                                     
                                     case ConsoleKey.Q:
                                         
-                                       exit = true;
+                                        exit = true;
 
                                         Console.Clear();
 
@@ -220,7 +283,7 @@ namespace Opgavemenu{
                         {
 
                         }
-                            break;
+                        break;
                     //Opgave 5
                     case ConsoleKey.D5:
                         Console.Clear();
