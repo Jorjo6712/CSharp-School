@@ -1,4 +1,10 @@
-﻿using System;
+﻿using System.Text.RegularExpressions;
+using System.Runtime.Serialization;
+using System.ComponentModel.Design;
+using System.IO.Compression;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
@@ -259,7 +265,32 @@ namespace Opgavemenu{
                                         break;
                                     
                                     case ConsoleKey.D3:
+                                        try
+                                        {
+                                            Console.Clear();
 
+                                            Console.WriteLine("Vælge fil navn:");
+
+                                            string? filnavnM3 = Console.ReadLine();
+                                            
+                                            string pathM3 = "C:\\temp\\" + filnavnM3 + ".txt";
+
+                                            if (!File.Exists(pathM3)){Console.WriteLine("\nFil eksistere ikke!"); Thread.Sleep(3000); break;}
+                                            
+                                            Console.WriteLine("\nFil indhold: ");
+
+                                            using (StreamReader sr = new StreamReader(pathM3)) 
+                                            {
+                                                string indhold = sr.ReadToEnd();
+                                                Console.WriteLine(indhold);
+                                                Thread.Sleep(10000);
+                                            }
+                                        
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            Console.WriteLine("\nFejl: " + ex.Message);
+                                        }
                                         break;
                                     
                                     case ConsoleKey.Q:
@@ -286,13 +317,69 @@ namespace Opgavemenu{
                         break;
                     //Opgave 5
                     case ConsoleKey.D5:
-                        Console.Clear();
-                        Console.WriteLine("test 5");
+                        try
+                        {
+                            while(true){
+                                
+                                Console.Clear();
+                                
+                                Console.WriteLine("Vælge json fil:");
+                                
+                                string jsonnavn = Console.ReadLine() + ".json";
+                                
+                                string pathJson = "C:\\temp\\" + jsonnavn;
+
+                                
+
+                                if (!File.Exists(pathJson)){Console.WriteLine("\nFil eksistere ikke!"); Thread.Sleep(3000); Console.Clear(); break;}
+
+                                //Åben, læs og udskriv indhold af fil
+
+                                using (StreamReader sr = new StreamReader(pathJson)) 
+                                {
+                                    string indhold = sr.ReadToEnd();
+                                    Console.WriteLine("\n" + indhold);
+                                }
+
+                                //Læs json data og validere med regex
+
+                                string? jsonData = "\n" + Console.ReadLine();
+
+                                string tiladtdata = @"\{""[^""]+"":""[^""]+""(, *""[^""]+"":""[^""]+"")*\}";
+
+                                if (!Regex.IsMatch(jsonData, tiladtdata))
+                                {
+                                    Console.WriteLine("Forkert format");
+                                    
+                                    Thread.Sleep(3000);
+
+                                    Console.Clear();
+
+                                    break;
+                                }
+
+                                //Skriv nyt json data ind
+
+                                File.AppendAllText(pathJson, jsonData);
+
+                                Thread.Sleep(3000);
+
+                                Console.Clear();
+                        
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("\nFejl: " + ex.Message);
+                            Thread.Sleep(3000);
+                        }
+
                         break;
+                        
                     //Opgave 6
                     case ConsoleKey.D6:
                         Console.Clear();
-                        Console.WriteLine("test 6");
+                        
                         break;
                     //Opgave 7
                     case ConsoleKey.D7:
