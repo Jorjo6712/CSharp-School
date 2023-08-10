@@ -1,0 +1,15 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\bin\Debug\net7.0\opgaveA.exe
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\bin\Debug\net7.0\opgaveA.deps.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\bin\Debug\net7.0\opgaveA.runtimeconfig.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\bin\Debug\net7.0\opgaveA.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\bin\Debug\net7.0\opgaveA.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.csproj.AssemblyReference.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.csproj.CoreCompileInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\refint\opgaveA.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\opgaveA.genruntimeconfig.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveA\obj\Debug\net7.0\ref\opgaveA.dll
