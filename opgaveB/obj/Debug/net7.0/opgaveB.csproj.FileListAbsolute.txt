@@ -1,0 +1,5 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveB\obj\Debug\net7.0\opgaveB.csproj.AssemblyReference.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveB\obj\Debug\net7.0\opgaveB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveB\obj\Debug\net7.0\opgaveB.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveB\obj\Debug\net7.0\opgaveB.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\opgaveB\obj\Debug\net7.0\opgaveB.csproj.CoreCompileInputs.cache
