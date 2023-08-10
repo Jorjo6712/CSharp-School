@@ -5,7 +5,7 @@
         static void Main()
         {
             double d = width*length;
-            //Det virker ikke fordi width og length variablerne er ikke initializet
+            //Det virker ikke fordi width og length variablerne er ikke initialized
         }
     }
 }
