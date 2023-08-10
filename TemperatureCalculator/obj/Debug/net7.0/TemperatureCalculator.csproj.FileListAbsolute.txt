@@ -1,0 +1,15 @@
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.csproj.AssemblyReference.cache
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.AssemblyInfoInputs.cache
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.AssemblyInfo.cs
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.csproj.CoreCompileInputs.cache
+B:\CSharp-School\TemperatureCalculator\bin\Debug\net7.0\TemperatureCalculator.exe
+B:\CSharp-School\TemperatureCalculator\bin\Debug\net7.0\TemperatureCalculator.deps.json
+B:\CSharp-School\TemperatureCalculator\bin\Debug\net7.0\TemperatureCalculator.runtimeconfig.json
+B:\CSharp-School\TemperatureCalculator\bin\Debug\net7.0\TemperatureCalculator.dll
+B:\CSharp-School\TemperatureCalculator\bin\Debug\net7.0\TemperatureCalculator.pdb
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.dll
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\refint\TemperatureCalculator.dll
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.pdb
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\TemperatureCalculator.genruntimeconfig.cache
+B:\CSharp-School\TemperatureCalculator\obj\Debug\net7.0\ref\TemperatureCalculator.dll
