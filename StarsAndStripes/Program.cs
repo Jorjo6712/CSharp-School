@@ -1,4 +1,5 @@
-﻿namespace StarsAndStripes
+﻿using System;
+namespace StarsAndStripes
 {
     class Program
     {
@@ -20,6 +21,18 @@
                         Console.BackgroundColor = ConsoleColor.Blue;
                         Console.Write(" *   *   *   *   *   *   ");
                         Console.BackgroundColor = ConsoleColor.Red;
+                        Console.WriteLine("                     ");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.Write("   *   *   *   *   *   * ");
+                        
+                    }
+                    else 
+                    {
+                        Console.BackgroundColor = ConsoleColor.White;
+                        Console.WriteLine("                     ");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.Write(" *   *   *   *   *   *   ");
+                        Console.BackgroundColor = ConsoleColor.White;
                         Console.WriteLine("                     ");
                     }
                 }

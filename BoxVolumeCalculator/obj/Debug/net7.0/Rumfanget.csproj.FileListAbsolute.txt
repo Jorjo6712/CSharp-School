@@ -1,0 +1,15 @@
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.csproj.AssemblyReference.cache
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.AssemblyInfoInputs.cache
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.AssemblyInfo.cs
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.csproj.CoreCompileInputs.cache
+B:\CSharp-School\Rumfanget\bin\Debug\net7.0\Rumfanget.exe
+B:\CSharp-School\Rumfanget\bin\Debug\net7.0\Rumfanget.deps.json
+B:\CSharp-School\Rumfanget\bin\Debug\net7.0\Rumfanget.runtimeconfig.json
+B:\CSharp-School\Rumfanget\bin\Debug\net7.0\Rumfanget.dll
+B:\CSharp-School\Rumfanget\bin\Debug\net7.0\Rumfanget.pdb
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.dll
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\refint\Rumfanget.dll
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.pdb
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\Rumfanget.genruntimeconfig.cache
+B:\CSharp-School\Rumfanget\obj\Debug\net7.0\ref\Rumfanget.dll

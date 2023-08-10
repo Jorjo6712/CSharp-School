@@ -1,0 +1,15 @@
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.csproj.AssemblyReference.cache
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.AssemblyInfoInputs.cache
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.AssemblyInfo.cs
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.csproj.CoreCompileInputs.cache
+B:\CSharp-School\BirthdayConsoleApp\bin\Debug\net7.0\BirthdayConsoleApp.exe
+B:\CSharp-School\BirthdayConsoleApp\bin\Debug\net7.0\BirthdayConsoleApp.deps.json
+B:\CSharp-School\BirthdayConsoleApp\bin\Debug\net7.0\BirthdayConsoleApp.runtimeconfig.json
+B:\CSharp-School\BirthdayConsoleApp\bin\Debug\net7.0\BirthdayConsoleApp.dll
+B:\CSharp-School\BirthdayConsoleApp\bin\Debug\net7.0\BirthdayConsoleApp.pdb
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.dll
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\refint\BirthdayConsoleApp.dll
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.pdb
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\BirthdayConsoleApp.genruntimeconfig.cache
+B:\CSharp-School\BirthdayConsoleApp\obj\Debug\net7.0\ref\BirthdayConsoleApp.dll

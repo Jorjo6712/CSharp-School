@@ -1,0 +1,15 @@
+B:\CSharp-School\StarsAndStripes\bin\Debug\net7.0\StarsAndStripes.exe
+B:\CSharp-School\StarsAndStripes\bin\Debug\net7.0\StarsAndStripes.deps.json
+B:\CSharp-School\StarsAndStripes\bin\Debug\net7.0\StarsAndStripes.runtimeconfig.json
+B:\CSharp-School\StarsAndStripes\bin\Debug\net7.0\StarsAndStripes.dll
+B:\CSharp-School\StarsAndStripes\bin\Debug\net7.0\StarsAndStripes.pdb
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.csproj.AssemblyReference.cache
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.AssemblyInfoInputs.cache
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.AssemblyInfo.cs
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.csproj.CoreCompileInputs.cache
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.dll
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\refint\StarsAndStripes.dll
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.pdb
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\StarsAndStripes.genruntimeconfig.cache
+B:\CSharp-School\StarsAndStripes\obj\Debug\net7.0\ref\StarsAndStripes.dll
