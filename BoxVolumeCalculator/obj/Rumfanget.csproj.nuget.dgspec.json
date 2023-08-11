@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "B:\\CSharp-School\\Rumfanget\\Rumfanget.csproj": {}
+    "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\BoxVolumeCalculator\\Rumfanget.csproj": {}
   },
   "projects": {
-    "B:\\CSharp-School\\Rumfanget\\Rumfanget.csproj": {
+    "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\BoxVolumeCalculator\\Rumfanget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\CSharp-School\\Rumfanget\\Rumfanget.csproj",
+        "projectUniqueName": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\BoxVolumeCalculator\\Rumfanget.csproj",
         "projectName": "Rumfanget",
-        "projectPath": "B:\\CSharp-School\\Rumfanget\\Rumfanget.csproj",
-        "packagesPath": "C:\\Users\\morka\\.nuget\\packages\\",
-        "outputPath": "B:\\CSharp-School\\Rumfanget\\obj\\",
+        "projectPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\BoxVolumeCalculator\\Rumfanget.csproj",
+        "packagesPath": "C:\\Users\\zbcyomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\BoxVolumeCalculator\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\morka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\zbcyomi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.emzi0767.com/api/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
