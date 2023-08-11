@@ -1,0 +1,15 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\bin\Debug\net7.0\kontrol-struktur-test.exe
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\bin\Debug\net7.0\kontrol-struktur-test.deps.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\bin\Debug\net7.0\kontrol-struktur-test.runtimeconfig.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\bin\Debug\net7.0\kontrol-struktur-test.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\bin\Debug\net7.0\kontrol-struktur-test.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.csproj.AssemblyReference.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.csproj.CoreCompileInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\refint\kontrol-struktur-test.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\kontrol-struktur-test.genruntimeconfig.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\kontrol-struktur-test\obj\Debug\net7.0\ref\kontrol-struktur-test.dll
