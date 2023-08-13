@@ -1,0 +1,15 @@
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.csproj.AssemblyReference.cache
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.AssemblyInfoInputs.cache
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.AssemblyInfo.cs
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.csproj.CoreCompileInputs.cache
+B:\CSharp-School\BMI-Calculator\bin\Debug\net7.0\BMI-Calculator.exe
+B:\CSharp-School\BMI-Calculator\bin\Debug\net7.0\BMI-Calculator.deps.json
+B:\CSharp-School\BMI-Calculator\bin\Debug\net7.0\BMI-Calculator.runtimeconfig.json
+B:\CSharp-School\BMI-Calculator\bin\Debug\net7.0\BMI-Calculator.dll
+B:\CSharp-School\BMI-Calculator\bin\Debug\net7.0\BMI-Calculator.pdb
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.dll
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\refint\BMI-Calculator.dll
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.pdb
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\BMI-Calculator.genruntimeconfig.cache
+B:\CSharp-School\BMI-Calculator\obj\Debug\net7.0\ref\BMI-Calculator.dll
