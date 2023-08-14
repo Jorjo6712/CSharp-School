@@ -1,0 +1,15 @@
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.csproj.AssemblyReference.cache
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.AssemblyInfoInputs.cache
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.AssemblyInfo.cs
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.csproj.CoreCompileInputs.cache
+B:\CSharp-School\Morsecode\bin\Debug\net7.0\Morsecode.exe
+B:\CSharp-School\Morsecode\bin\Debug\net7.0\Morsecode.deps.json
+B:\CSharp-School\Morsecode\bin\Debug\net7.0\Morsecode.runtimeconfig.json
+B:\CSharp-School\Morsecode\bin\Debug\net7.0\Morsecode.dll
+B:\CSharp-School\Morsecode\bin\Debug\net7.0\Morsecode.pdb
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.dll
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\refint\Morsecode.dll
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.pdb
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\Morsecode.genruntimeconfig.cache
+B:\CSharp-School\Morsecode\obj\Debug\net7.0\ref\Morsecode.dll

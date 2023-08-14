@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = BMI_Calculator
-build_property.ProjectDir = B:\CSharp-School\BMI-Calculator\
+build_property.RootNamespace = Morsecode
+build_property.ProjectDir = B:\CSharp-School\Morsecode\
