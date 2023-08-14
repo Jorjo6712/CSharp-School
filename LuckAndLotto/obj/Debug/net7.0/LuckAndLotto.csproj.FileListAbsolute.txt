@@ -1,0 +1,15 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\bin\Debug\net7.0\LuckAndLotto.exe
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\bin\Debug\net7.0\LuckAndLotto.deps.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\bin\Debug\net7.0\LuckAndLotto.runtimeconfig.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\bin\Debug\net7.0\LuckAndLotto.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\bin\Debug\net7.0\LuckAndLotto.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.csproj.AssemblyReference.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.csproj.CoreCompileInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\refint\LuckAndLotto.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\LuckAndLotto.genruntimeconfig.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\LuckAndLotto\obj\Debug\net7.0\ref\LuckAndLotto.dll
