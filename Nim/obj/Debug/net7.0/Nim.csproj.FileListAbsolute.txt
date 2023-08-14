@@ -1,0 +1,15 @@
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.csproj.AssemblyReference.cache
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.AssemblyInfoInputs.cache
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.AssemblyInfo.cs
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.csproj.CoreCompileInputs.cache
+B:\CSharp-School\Nim\bin\Debug\net7.0\Nim.exe
+B:\CSharp-School\Nim\bin\Debug\net7.0\Nim.deps.json
+B:\CSharp-School\Nim\bin\Debug\net7.0\Nim.runtimeconfig.json
+B:\CSharp-School\Nim\bin\Debug\net7.0\Nim.dll
+B:\CSharp-School\Nim\bin\Debug\net7.0\Nim.pdb
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.dll
+B:\CSharp-School\Nim\obj\Debug\net7.0\refint\Nim.dll
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.pdb
+B:\CSharp-School\Nim\obj\Debug\net7.0\Nim.genruntimeconfig.cache
+B:\CSharp-School\Nim\obj\Debug\net7.0\ref\Nim.dll
