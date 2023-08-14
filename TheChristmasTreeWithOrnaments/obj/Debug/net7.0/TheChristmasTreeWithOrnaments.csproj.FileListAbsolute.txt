@@ -1,0 +1,15 @@
+B:\CSharp-School\TheChristmasTreeWithOrnaments\bin\Debug\net7.0\TheChristmasTreeWithOrnaments.exe
+B:\CSharp-School\TheChristmasTreeWithOrnaments\bin\Debug\net7.0\TheChristmasTreeWithOrnaments.deps.json
+B:\CSharp-School\TheChristmasTreeWithOrnaments\bin\Debug\net7.0\TheChristmasTreeWithOrnaments.runtimeconfig.json
+B:\CSharp-School\TheChristmasTreeWithOrnaments\bin\Debug\net7.0\TheChristmasTreeWithOrnaments.dll
+B:\CSharp-School\TheChristmasTreeWithOrnaments\bin\Debug\net7.0\TheChristmasTreeWithOrnaments.pdb
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.csproj.AssemblyReference.cache
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.AssemblyInfoInputs.cache
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.AssemblyInfo.cs
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.csproj.CoreCompileInputs.cache
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.dll
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\refint\TheChristmasTreeWithOrnaments.dll
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.pdb
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\TheChristmasTreeWithOrnaments.genruntimeconfig.cache
+B:\CSharp-School\TheChristmasTreeWithOrnaments\obj\Debug\net7.0\ref\TheChristmasTreeWithOrnaments.dll
