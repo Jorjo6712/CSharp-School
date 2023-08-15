@@ -8,25 +8,32 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zbcyomi\\.nuget\\packages\\": {}
+    "C:\\Users\\morka\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\VinosBlancos\\VinosBlancos.csproj",
+      "projectUniqueName": "B:\\CSharp-School\\VinosBlancos\\VinosBlancos.csproj",
       "projectName": "VinosBlancos",
-      "projectPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\VinosBlancos\\VinosBlancos.csproj",
-      "packagesPath": "C:\\Users\\zbcyomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\VinosBlancos\\obj\\",
+      "projectPath": "B:\\CSharp-School\\VinosBlancos\\VinosBlancos.csproj",
+      "packagesPath": "C:\\Users\\morka\\.nuget\\packages\\",
+      "outputPath": "B:\\CSharp-School\\VinosBlancos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zbcyomi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\morka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.emzi0767.com/api/v3/index.json": {},
+        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {

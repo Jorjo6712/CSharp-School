@@ -9,26 +9,15 @@
 
         static void View()
         {
-            Console.WriteLine("*");
+            Console.Write("*");
         }
 
 
-        static int[,] Model()
+        static int[] Model()
         {
-            int[,] vinos =
-            {
-              {175134, 2009},
-              {175388, 2010},
-              {172818, 2011},
-              {142709, 2012},
-              {151437, 2013},
-              {152620, 2014},
-              {150979, 2015},
-              {152210, 2016},
-              {149450, 2017},
-              {154398, 2018},
-              {150160, 2019}
-            };
+            int[] vinos = new int[] { 175134, 175388, 172818, 142709, 151437, 152620, 150979, 152210, 149450, 154398, 150160 };
+
+            Array.Sort(vinos);
 
             return vinos;
         }
@@ -39,23 +28,21 @@
             const int max = 175388;
             const byte maxStar = 100;
 
-            int[,] vinos = Model();
+            int[] vinos = Model();
 
 
 
-            for (int i = 0; i < vinos.Length / 2; i++)
+            for (int i = 0; i < vinos.Length; i++)
             {
-                int star = maxStar * vinos[i, i] / max;
+                int star = maxStar * vinos[i] / max;
 
-                Array.Sort(Model());
-
-                for (int k = 0; k < star; i++)
+                for (int k = 0; k < star; k++)
                 {
                     View();
                 }
+
+                Console.WriteLine();
             }
-
-
         }
     }
 }
