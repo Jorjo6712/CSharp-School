@@ -19,13 +19,17 @@
 
             string? passwordInput = Console.ReadLine();
 
-            if (Rule1(passwordInput) == true)
+            if (Rule1(passwordInput) == true && Rule2(passwordInput) == true && Rule3(passwordInput) == true && Rule4(passwordInput) == true)
             {
-                Console.WriteLine("test");
+                Green();
+            }
+            else if (Contains4(passwordInput) == false)
+            {
+                Yellow();
             }
             else
             {
-                PasswordTooWeak();
+                Red();
             }
         }
 
@@ -62,10 +66,25 @@
             Console.WriteLine("\n Please input your password: ");
         }
 
-        static void PasswordTooWeak()
+        static void Green()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\n Password is valid :)");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void Yellow()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("\n Password meets the requirements but can be fruther enforced");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void Red()
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n Password is too long or weak.");
+            Console.WriteLine("\n Password is too weak");
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         #endregion View
@@ -94,19 +113,64 @@
         {
             if (passwordInput.Any(char.IsUpper) && passwordInput.Any(char.IsLower))
             {
-
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
         static bool Rule3(string passwordInput)
         {
-
+            if (passwordInput.Any(char.IsDigit))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         static bool Rule4(string passwordInput)
         {
-
+            if (passwordInput.Any(char.IsSymbol))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+
+        static bool Contains4(string passwordInput)
+        {
+            int charCount = 1;
+
+            char precedingChar = passwordInput[0];
+
+            for (int i = 1; i < passwordInput.Length - 1; i++)
+            {
+                if (passwordInput[i] == passwordInput[i + 1])
+                {
+                    charCount++;
+                }
+                if (charCount == 4)
+                {
+                    return true;
+                }
+                else
+                {
+                    charCount = 1;
+                }
+
+
+            }
+            return false;
+        }
+
 
         static char[] InputToCharArray(string passwordInput)
         {
