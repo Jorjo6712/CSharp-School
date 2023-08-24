@@ -3,7 +3,7 @@
 /* CREATE INDEX randomIndex
 ON Random (id, randomValue);  Kommentar felter fjernes når der skal testes med index*/
 
-// Opgave 1
+/* Opgave 1 */
 
 -- Uden index:
 
@@ -23,18 +23,18 @@ SELECT CURRENT_TIMESTAMP
 -- Stop: 21:00:24.493
 -- Query tid: 133 ms
 
-// Opgave 2
+/* Opgave 2 */
 
 -- Uden index:
 
 SELECT CURRENT_TIMESTAMP
-CREATE VIEW RandomCountAppearences as
+/* CREATE VIEW RandomCountAppearances as
 
-SELECT randomValue, count (*) appearences FROM Random
+SELECT randomValue, count (*) appearances FROM Random
 
-Group By randomValue;
+Group By randomValue; Bruges til at lave VIEW clause */
 
-SELECT randomValue FROM RandomCountAppearences
+SELECT randomValue FROM RandomCountAppearances
 Order By randomValue;
 
 SELECT CURRENT_TIMESTAMP
@@ -49,13 +49,13 @@ SELECT CURRENT_TIMESTAMP
 -- Stop: 21:02:01.587
 -- Query tid: 217 ms
 
-// Opgave 3
+/* Opgave 3 */ 
 
 -- Uden index:
 
 SELECT CURRENT_TIMESTAMP
 
-SELECT randomValue FROM RandomCountAppearences
+SELECT randomValue FROM RandomCountAppearances
 Order By appearences asc;
 
 SELECT CURRENT_TIMESTAMP
@@ -70,13 +70,13 @@ SELECT CURRENT_TIMESTAMP
 -- Stop: 21:03:30.570
 -- Query tid: 80 ms
 
-// Opgave 4
+/* Opgave 4 */ 
 
 -- Uden index:
 
 SELECT CURRENT_TIMESTAMP
 
-SELECT randomValue FROM RandomCountAppearences
+SELECT randomValue FROM RandomCountAppearances
 Order By appearences desc;
 
 SELECT CURRENT_TIMESTAMP
@@ -91,19 +91,19 @@ SELECT CURRENT_TIMESTAMP
 -- Stop: 21:04:51.580
 -- Query tid: 120 ms
 
-//Opgave 5
+/* Opgave 5 */
 
 -- Uden index:
 
 SELECT CURRENT_TIMESTAMP
 SELECT randomValue FROM
 (
-	SELECT TOP 1 randomValue FROM RandomCountAppearences
+	SELECT TOP 1 randomValue FROM RandomCountAppearances
 	Order By appearences desc
 
 	UNION
 
-	SELECT TOP 1 randomValue FROM RandomCountAppearences
+	SELECT TOP 1 randomValue FROM RandomCountAppearances
 	Order By appearences asc
 ) AS CombinedResults;
 SELECT CURRENT_TIMESTAMP
