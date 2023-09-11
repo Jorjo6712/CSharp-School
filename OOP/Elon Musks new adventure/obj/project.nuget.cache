@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8CnXpBd+ndOXccesdt6VxNsOJdWCx5nAjVkFPiJi1b2qeIxIsC4bW/NLBNKry3DVCzUrx8U5zJ8aIJXQqwaakQ==",
   "success": true,
   "projectFilePath": "B:\\CSharp-School\\oop\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
+=======
+  "dgSpecHash": "vSfnGs6Z3SubMfF0uz+HFHN1kAU0dXQYI2XBGR5T1f0J8sBdExF6CadUZzfkkelb0rvUb4oV5ztSKIldoRNyYA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
+>>>>>>> 7548a5c79101c12e6416cdbee6fdcadabfff9946
   "expectedPackageFiles": [],
   "logs": []
 }

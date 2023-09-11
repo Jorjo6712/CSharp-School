@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elon Musks new adventure", "Elon Musks new adventure.csproj", "{7946BD21-1B90-4603-AC16-50B2DD62C144}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elon Musks new adventure", "Elon Musks new adventure.csproj", "{D609E21E-B114-4B7B-B651-1E3D1C1EF339}"
+>>>>>>> 7548a5c79101c12e6416cdbee6fdcadabfff9946
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{7946BD21-1B90-4603-AC16-50B2DD62C144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7946BD21-1B90-4603-AC16-50B2DD62C144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7946BD21-1B90-4603-AC16-50B2DD62C144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7946BD21-1B90-4603-AC16-50B2DD62C144}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{D609E21E-B114-4B7B-B651-1E3D1C1EF339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D609E21E-B114-4B7B-B651-1E3D1C1EF339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D609E21E-B114-4B7B-B651-1E3D1C1EF339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D609E21E-B114-4B7B-B651-1E3D1C1EF339}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 7548a5c79101c12e6416cdbee6fdcadabfff9946
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {EC026EF1-D379-4C9F-90F7-2E56BB729894}
+=======
+		SolutionGuid = {54C67E21-E9E2-488E-B54C-774A8F3B4F4B}
+>>>>>>> 7548a5c79101c12e6416cdbee6fdcadabfff9946
 	EndGlobalSection
 EndGlobal

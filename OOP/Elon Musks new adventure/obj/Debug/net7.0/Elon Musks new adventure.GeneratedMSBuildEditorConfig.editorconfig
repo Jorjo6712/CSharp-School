@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Elon_Musks_new_adventure
+<<<<<<< HEAD
 build_property.ProjectDir = B:\CSharp-School\oop\Elon Musks new adventure\
+=======
+build_property.ProjectDir = c:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\Elon Musks new adventure\
+>>>>>>> 7548a5c79101c12e6416cdbee6fdcadabfff9946
