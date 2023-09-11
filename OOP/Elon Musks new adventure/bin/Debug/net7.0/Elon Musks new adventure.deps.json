@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Elon Musks new adventure/1.0.0": {
+        "runtime": {
+          "Elon Musks new adventure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elon Musks new adventure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

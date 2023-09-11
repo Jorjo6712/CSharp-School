@@ -1,0 +1,14 @@
+B:\CSharp-School\OOP\Elon Musks new adventure\bin\Debug\net7.0\Elon Musks new adventure.exe
+B:\CSharp-School\OOP\Elon Musks new adventure\bin\Debug\net7.0\Elon Musks new adventure.deps.json
+B:\CSharp-School\OOP\Elon Musks new adventure\bin\Debug\net7.0\Elon Musks new adventure.runtimeconfig.json
+B:\CSharp-School\OOP\Elon Musks new adventure\bin\Debug\net7.0\Elon Musks new adventure.dll
+B:\CSharp-School\OOP\Elon Musks new adventure\bin\Debug\net7.0\Elon Musks new adventure.pdb
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.AssemblyInfoInputs.cache
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.AssemblyInfo.cs
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.csproj.CoreCompileInputs.cache
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.dll
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\refint\Elon Musks new adventure.dll
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.pdb
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\Elon Musks new adventure.genruntimeconfig.cache
+B:\CSharp-School\OOP\Elon Musks new adventure\obj\Debug\net7.0\ref\Elon Musks new adventure.dll
