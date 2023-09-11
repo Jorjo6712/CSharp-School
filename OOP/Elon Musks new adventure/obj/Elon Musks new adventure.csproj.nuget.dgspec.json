@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj": {}
+    "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj": {
+    "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
+        "projectUniqueName": "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
         "projectName": "Elon Musks new adventure",
-        "projectPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
+        "projectPath": "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\Elon Musks new adventure.csproj",
         "packagesPath": "C:\\Users\\zbcyomi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\obj\\",
+        "outputPath": "c:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Elon Musks new adventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zbcyomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
