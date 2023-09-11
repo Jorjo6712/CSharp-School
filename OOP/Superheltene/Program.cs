@@ -10,13 +10,15 @@ namespace Superhero
         {
             Controller();
         }
-
+        #region Controller
         static void Controller()
         {
             Program program = new Program();
             program.Superheros();
         }
-        
+        #endregion Controller
+
+        #region Methods
         void Superheros()
         {
             for(int i = 0; i < 3; i++)
@@ -59,7 +61,9 @@ namespace Superhero
 
             View();
         }
-
+        #endregion Methods
+        
+        #region View
         void View()
         {
             for (int i = 0; i < 3; i++)
@@ -72,5 +76,6 @@ namespace Superhero
                 }
             }
         }
+        #endregion View
     }    
 }
