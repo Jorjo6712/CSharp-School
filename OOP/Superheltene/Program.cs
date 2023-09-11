@@ -16,7 +16,7 @@ namespace Superhero
             Program program = new Program();
             program.Superheros();
         }
-        #endregion Controller
+        #endregion
 
         #region Methods
         void Superheros()
@@ -61,7 +61,7 @@ namespace Superhero
 
             View();
         }
-        #endregion Methods
+        #endregion
         
         #region View
         void View()
@@ -76,6 +76,6 @@ namespace Superhero
                 }
             }
         }
-        #endregion View
+        #endregion
     }    
 }
