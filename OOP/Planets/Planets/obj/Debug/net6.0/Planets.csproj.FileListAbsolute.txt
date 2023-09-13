@@ -1,0 +1,14 @@
+B:\CSharp-School\OOP\Planets\Planets\bin\Debug\net6.0\Planets.exe
+B:\CSharp-School\OOP\Planets\Planets\bin\Debug\net6.0\Planets.deps.json
+B:\CSharp-School\OOP\Planets\Planets\bin\Debug\net6.0\Planets.runtimeconfig.json
+B:\CSharp-School\OOP\Planets\Planets\bin\Debug\net6.0\Planets.dll
+B:\CSharp-School\OOP\Planets\Planets\bin\Debug\net6.0\Planets.pdb
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfoInputs.cache
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfo.cs
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.csproj.CoreCompileInputs.cache
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.dll
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\refint\Planets.dll
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.pdb
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\Planets.genruntimeconfig.cache
+B:\CSharp-School\OOP\Planets\Planets\obj\Debug\net6.0\ref\Planets.dll
