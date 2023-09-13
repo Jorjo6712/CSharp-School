@@ -1,0 +1,14 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\bin\Debug\net6.0\SortingHat.exe
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\bin\Debug\net6.0\SortingHat.deps.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\bin\Debug\net6.0\SortingHat.runtimeconfig.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\bin\Debug\net6.0\SortingHat.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\bin\Debug\net6.0\SortingHat.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.csproj.CoreCompileInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\refint\SortingHat.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\SortingHat.genruntimeconfig.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\SortingHat\SortingHat\SortingHat\obj\Debug\net6.0\ref\SortingHat.dll
