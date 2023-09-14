@@ -1,0 +1,14 @@
+B:\CSharp-School\Biblioteket\Biblioteket\bin\Debug\net6.0\Biblioteket.exe
+B:\CSharp-School\Biblioteket\Biblioteket\bin\Debug\net6.0\Biblioteket.deps.json
+B:\CSharp-School\Biblioteket\Biblioteket\bin\Debug\net6.0\Biblioteket.runtimeconfig.json
+B:\CSharp-School\Biblioteket\Biblioteket\bin\Debug\net6.0\Biblioteket.dll
+B:\CSharp-School\Biblioteket\Biblioteket\bin\Debug\net6.0\Biblioteket.pdb
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.AssemblyInfoInputs.cache
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.AssemblyInfo.cs
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.csproj.CoreCompileInputs.cache
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.dll
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\refint\Biblioteket.dll
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.pdb
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\Biblioteket.genruntimeconfig.cache
+B:\CSharp-School\Biblioteket\Biblioteket\obj\Debug\net6.0\ref\Biblioteket.dll
