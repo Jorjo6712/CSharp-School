@@ -2,11 +2,11 @@
 
 namespace Planets
 {
+    /// <summary>
+    /// This class file contains all the neccessary properties to instantiate planet objects
+    /// </summary>
     internal class Planet
     {
-
-        internal List <Planet> planets = new List <Planet> ();
-
         private string _name;
         private float _mass;
         private uint _diameter;

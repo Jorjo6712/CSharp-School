@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\CSharp-School\\OOP\\Planets\\Planets\\Planets.csproj",
-      "projectName": "Planets",
-      "projectPath": "B:\\CSharp-School\\OOP\\Planets\\Planets\\Planets.csproj",
+      "projectUniqueName": "B:\\CSharp-School\\OOP\\Biblioteket\\Biblioteket\\Biblioteket.csproj",
+      "projectName": "Biblioteket",
+      "projectPath": "B:\\CSharp-School\\OOP\\Biblioteket\\Biblioteket\\Biblioteket.csproj",
       "packagesPath": "C:\\Users\\morka\\.nuget\\packages\\",
-      "outputPath": "B:\\CSharp-School\\OOP\\Planets\\Planets\\obj\\",
+      "outputPath": "B:\\CSharp-School\\OOP\\Biblioteket\\Biblioteket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
