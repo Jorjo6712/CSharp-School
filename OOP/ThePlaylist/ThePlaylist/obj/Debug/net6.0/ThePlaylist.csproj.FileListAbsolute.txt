@@ -1,0 +1,14 @@
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.AssemblyInfoInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.AssemblyInfo.cs
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.csproj.CoreCompileInputs.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\bin\Debug\net6.0\ThePlaylist.exe
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\bin\Debug\net6.0\ThePlaylist.deps.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\bin\Debug\net6.0\ThePlaylist.runtimeconfig.json
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\bin\Debug\net6.0\ThePlaylist.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\bin\Debug\net6.0\ThePlaylist.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\refint\ThePlaylist.dll
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.pdb
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ThePlaylist.genruntimeconfig.cache
+C:\Users\zbcyomi\Documents\GitHub\CSharp-School\OOP\ThePlaylist\ThePlaylist\obj\Debug\net6.0\ref\ThePlaylist.dll
