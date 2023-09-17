@@ -1,0 +1,14 @@
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.AssemblyInfoInputs.cache
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.AssemblyInfo.cs
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.csproj.CoreCompileInputs.cache
+B:\CSharp-School\JediMindTricks\JediMindTricks\bin\Debug\net6.0\JediMindTricks.exe
+B:\CSharp-School\JediMindTricks\JediMindTricks\bin\Debug\net6.0\JediMindTricks.deps.json
+B:\CSharp-School\JediMindTricks\JediMindTricks\bin\Debug\net6.0\JediMindTricks.runtimeconfig.json
+B:\CSharp-School\JediMindTricks\JediMindTricks\bin\Debug\net6.0\JediMindTricks.dll
+B:\CSharp-School\JediMindTricks\JediMindTricks\bin\Debug\net6.0\JediMindTricks.pdb
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.dll
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\refint\JediMindTricks.dll
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.pdb
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\JediMindTricks.genruntimeconfig.cache
+B:\CSharp-School\JediMindTricks\JediMindTricks\obj\Debug\net6.0\ref\JediMindTricks.dll
