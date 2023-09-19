@@ -1,0 +1,14 @@
+B:\CSharp-School\OOP\TheFirmV2\bin\Debug\net6.0\TheFirmV2.exe
+B:\CSharp-School\OOP\TheFirmV2\bin\Debug\net6.0\TheFirmV2.deps.json
+B:\CSharp-School\OOP\TheFirmV2\bin\Debug\net6.0\TheFirmV2.runtimeconfig.json
+B:\CSharp-School\OOP\TheFirmV2\bin\Debug\net6.0\TheFirmV2.dll
+B:\CSharp-School\OOP\TheFirmV2\bin\Debug\net6.0\TheFirmV2.pdb
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.AssemblyInfoInputs.cache
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.AssemblyInfo.cs
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.csproj.CoreCompileInputs.cache
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.dll
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\refint\TheFirmV2.dll
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.pdb
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\TheFirmV2.genruntimeconfig.cache
+B:\CSharp-School\OOP\TheFirmV2\obj\Debug\net6.0\ref\TheFirmV2.dll

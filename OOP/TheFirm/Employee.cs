@@ -1,5 +1,8 @@
 ﻿namespace TheFirm
 {
+    /// <summary>
+    /// This is the Employee superclass which is the base information for the other classes to be based upon inheriting
+    /// </summary>
     internal class Employee
     {
         private protected string _name = string.Empty;

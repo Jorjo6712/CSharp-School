@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheFirm
+﻿namespace TheFirm
 {
+    /// <summary>
+    /// ProjectManager is used to inherit all base Employee superclass params and add onto it with it's own being phoneNumber
+    /// </summary>
     internal class Manager : Employee
     {
         private protected int _phoneNumber;

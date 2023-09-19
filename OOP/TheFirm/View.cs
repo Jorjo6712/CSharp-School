@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheFirm
+﻿namespace TheFirm
 {
+    /// <summary>
+    /// View is used for basic GUI functionality
+    /// </summary>
     internal class View
     {
         internal void Text(string text)

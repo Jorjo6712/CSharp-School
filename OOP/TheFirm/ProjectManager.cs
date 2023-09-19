@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheFirm
+﻿namespace TheFirm
 {
+    /// <summary>
+    /// ProjectManager is used to inherit all base Manager params and add onto it with it's own being email
+    /// </summary>
     internal class ProjectManager : Manager
     {
         private protected string _email;

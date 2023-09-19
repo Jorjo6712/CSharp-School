@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheFirmV2
+﻿namespace TheFirmV2
 {
+    /// <summary>
+    /// Used for simple GUI functionality
+    /// </summary>
     internal class View
     {
+        internal void Text(string text)
+        {
+            Console.WriteLine(text);
+        }
     }
 }
