@@ -1,0 +1,14 @@
+B:\CSharp-School\OOP\Reproduction_Station\bin\Debug\net6.0\Reproduction_Station.exe
+B:\CSharp-School\OOP\Reproduction_Station\bin\Debug\net6.0\Reproduction_Station.deps.json
+B:\CSharp-School\OOP\Reproduction_Station\bin\Debug\net6.0\Reproduction_Station.runtimeconfig.json
+B:\CSharp-School\OOP\Reproduction_Station\bin\Debug\net6.0\Reproduction_Station.dll
+B:\CSharp-School\OOP\Reproduction_Station\bin\Debug\net6.0\Reproduction_Station.pdb
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.GeneratedMSBuildEditorConfig.editorconfig
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.AssemblyInfoInputs.cache
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.AssemblyInfo.cs
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.csproj.CoreCompileInputs.cache
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.dll
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\refint\Reproduction_Station.dll
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.pdb
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\Reproduction_Station.genruntimeconfig.cache
+B:\CSharp-School\OOP\Reproduction_Station\obj\Debug\net6.0\ref\Reproduction_Station.dll

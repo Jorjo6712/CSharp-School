@@ -8,27 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zbcyomi\\.nuget\\packages\\": {}
+    "C:\\Users\\morka\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Reproduction_Station\\Reproduction_Station.csproj",
+      "projectUniqueName": "B:\\CSharp-School\\OOP\\Reproduction_Station\\Reproduction_Station.csproj",
       "projectName": "Reproduction_Station",
-      "projectPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Reproduction_Station\\Reproduction_Station.csproj",
-      "packagesPath": "C:\\Users\\zbcyomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zbcyomi\\Documents\\GitHub\\CSharp-School\\OOP\\Reproduction_Station\\obj\\",
+      "projectPath": "B:\\CSharp-School\\OOP\\Reproduction_Station\\Reproduction_Station.csproj",
+      "packagesPath": "C:\\Users\\morka\\.nuget\\packages\\",
+      "outputPath": "B:\\CSharp-School\\OOP\\Reproduction_Station\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zbcyomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.emzi0767.com/api/v3/index.json": {},
+        "https://www.myget.org/F/discord-net/api/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
